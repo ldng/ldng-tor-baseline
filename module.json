@@ -1,0 +1,54 @@
+{
+  "id": "ldng-tor-baseline",
+  "title": "Ldng TOR baseline",
+  "version": "0.0.0",
+  "url": "https://github.com/ldng/ldng-tor-baseline",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "ldng-baseline-modules",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tor-2e-compendium-fr",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tor-2e-macros",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "tor2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "tor2e-npc-parser",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "fr-core",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tolkienuidark",
+        "type": "module"
+      }
+    ]
+  },
+  "manifest": "__PLACEHOLDER__",
+  "download": "__PLACEHOLDER__"
+}
