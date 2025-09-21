@@ -4,10 +4,16 @@
   "version": "0.0.0",
   "url": "https://github.com/ldng/ldng-tor-baseline",
   "compatibility": {
-    "minimum": "11",
-    "verified": "12"
+    "minimum": "13"
   },
   "relationships": {
+    "systems": [
+      {
+        "id": "tor2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
     "requires": [
       {
         "id": "ldng-baseline-modules",
@@ -20,15 +26,13 @@
         "compatibility": {}
       },
       {
-        "id": "tor-2e-macros",
+        "id": "tor-2e-gamecontrol",
         "type": "module",
         "compatibility": {}
-      }
-    ],
-    "systems": [
+      },
       {
-        "id": "tor2e",
-        "type": "system",
+        "id": "token-action-hud-tor2e",
+        "type": "module",
         "compatibility": {}
       }
     ],
@@ -42,6 +46,10 @@
         "id": "fr-core",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "tor-2e-macros",
+        "type": "module"
       },
       {
         "id": "tolkienuidark",
