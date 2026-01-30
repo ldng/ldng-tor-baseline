@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "url": "https://github.com/ldng/ldng-tor-baseline",
   "compatibility": {
-    "minimum": "13"
+    "minimum": "13",
+    "verified": "13"
   },
   "relationships": {
     "systems": [
@@ -34,14 +35,14 @@
         "id": "token-action-hud-tor2e",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "tor-2e-workshop",
+        "type": "module",
+        "compatibility": {}
       }
     ],
     "recommends": [
-      {
-        "id": "tor2e-npc-parser",
-        "type": "module",
-        "compatibility": {}
-      },
       {
         "id": "fr-core",
         "type": "module",
@@ -52,7 +53,7 @@
         "type": "module"
       },
       {
-        "id": "tolkienuidark",
+        "id": "tor2e-theme",
         "type": "module"
       }
     ]
